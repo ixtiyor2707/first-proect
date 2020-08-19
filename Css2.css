@@ -1,0 +1,39 @@
+*{margin: 0;padding: 0;}
+h1 
+{
+text-transform: uppercase;
+color: green;
+text-align: center;
+line-height: 100px;
+}
+#sayt
+{
+    border: 2px solid red;
+    /* border-radius: 30px; */
+}
+img
+{
+    width: 500px;
+    height: 300px;
+    border: 2px solid blue;
+    border-radius: 30px;
+}
+#yuqori
+{
+    margin: 10px 30px 10px 30px ;
+    border: 2px solid red;
+    background: blue;
+    height: 100px;
+    
+
+}
+#content
+{
+    background: orange;
+}
+#content p
+{
+    font-size: 18pt;
+    color: red;
+     
+}
