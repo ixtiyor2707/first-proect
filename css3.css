@@ -1,0 +1,26 @@
+*{margin: 0;padding: 0;}
+#sayt
+{
+    width: 960px;
+    margin: 0px auto;
+    border: 3px solid red;
+}
+#dapa
+{
+    height: 60px;
+    background: gray;
+}
+#Menu
+{
+    width: 260px;
+    float: left;
+    height: 350px;
+    background: yellow;
+}
+#content
+{
+    width: 700px;
+    float: left;
+    height: 350px;
+    background: orangered;
+}

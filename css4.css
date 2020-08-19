@@ -1,0 +1,40 @@
+*{margin: 0;padding: 0;}
+#sayt
+{
+    width: 1000px;
+    border: 1px solid red;
+    margin: 0px auto;
+    background: gray;
+
+}
+#left
+{
+    width: 500px;
+    float: left;
+
+}
+#r
+{
+    width: 500px;
+    float: right;
+}
+#rasmlar
+{
+    padding: 10px;
+}
+#rasmlar img
+{
+    width: 30%;
+    float: left;
+    margin-left: 3%;
+}
+#r img
+{
+    width: 95%;
+}
+.clear
+{clear: both;}
+#left p
+{
+    margin-left: 5px;
+}
