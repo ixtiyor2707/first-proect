@@ -1,0 +1,187 @@
+                    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+                    * {
+                        font-family: 'Poppins', sans-serif;
+                        margin: 0px;
+                        padding: 0px;
+                        box-sizing: border-box;
+                    }
+                    
+                    section {
+                        width: 100%;
+                        height: 100vh;
+                        background: #0062be;
+                        padding: 50px 100px;
+                    }
+                    
+                    header {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                    }
+                    
+                    header ul {
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                    }
+                    
+                    header ul li {
+                        list-style: none;
+                        margin-right: 30px;
+                        font-size: 20px;
+                    }
+                    
+                    header ul li a {
+                        text-decoration: none;
+                        list-style: none;
+                        color: #fff;
+                    }
+                    
+                    .content {
+                        width: 100%;
+                        display: flex;
+                        flex-direction: row;
+                        position: relative;
+                        justify-content: space-between;
+                    }
+                    
+                    .texBox {
+                        width: 600px;
+                        display: flex;
+                        flex-direction: column;
+                        margin-top: 100px;
+                    }
+                    
+                    .texBox h2 {
+                        font-size: 80px;
+                        text-transform: uppercase;
+                        line-height: 120px;
+                        color: white;
+                    }
+                    
+                    .texBox h2 span {
+                        font-size: 150px;
+                        font-weight: 900;
+                    }
+                    
+                    .texBox h5 {
+                        font-size: 20px;
+                        color: white;
+                    }
+                    
+                    .texBox a {
+                        text-transform: uppercase;
+                        padding: 10px 20px;
+                        background-color: white;
+                        color: black;
+                        width: fit-content;
+                        border-radius: 40px;
+                        text-decoration: none;
+                        font-weight: 500;
+                        margin-top: 20px;
+                    }
+                    
+                    .imgBox img {
+                        width: 300px;
+                        margin-top: 100px;
+                    }
+                    
+                    .imgBox {
+                        display: flex;
+                        justify-content: flex-end;
+                        width: 600px;
+                        padding-right: 150px;
+                    }
+                    
+                    .icons {
+                        display: flex;
+                        flex-direction: column;
+                        position: absolute;
+                        right: 50px;
+                        top: 58%;
+                        transform: translateY(-50%);
+                    }
+                    
+                    .icons img {
+                        margin-bottom: 40px;
+                        filter: invert(1);
+                    }
+                    
+                    .icons>.face {
+                        width: 20px;
+                        margin-left: 5px;
+                    }
+                    
+                    .banki {
+                        position: absolute;
+                        left: 45%;
+                        bottom: 30px;
+                    }
+                    
+                    .banki img {
+                        margin-right: 50px;
+                        cursor: pointer;
+                        transition: all .5s;
+                    }
+                    
+                    .banki img:hover {
+                        margin-bottom: 40px;
+                    }
+                    /* @media only screen and (max-width: 700px) {
+                        section {
+                            padding: 10px 20px;
+                        }
+                        header {
+                            display: none;
+                        }
+                        .content {
+                            display: flex;
+                            flex-direction: column;
+                        }
+                        .texBox {
+                            margin-top: 50px;
+                            width: 500px;
+                        }
+                        .texBox h2 {
+                            font-size: 30px;
+                            text-transform: uppercase;
+                            line-height: 40px;
+                        }
+                        .texBox h2 span {
+                            font-size: 45px;
+                        }
+                        .texBox h5 {
+                            font-size: 15px;
+                        }
+                        .texBox a {
+                            padding: 5px 10px;
+                            width: fit-content;
+                            border-radius: 20px;
+                            font-weight: 400;
+                            margin-top: 10px;
+                            font-size: 12px;
+                        }
+                        .imgBox img {
+                            width: 200px;
+                            margin-top: 30px;
+                        }
+                        .imgBox {
+                            padding-right: 225px;
+                        }
+                        .icons {
+                            right: 50px;
+                            top: 60%;
+                            transform: translateY(-50%);
+                        }
+                        .banki {
+                            position: absolute;
+                            left: 25%;
+                            bottom: 10px;
+                        }
+                        .banki img {
+                            width: 50px;
+                        }
+                        .banki img:hover {
+                            margin-bottom: 20px;
+                        }
+                    } */
